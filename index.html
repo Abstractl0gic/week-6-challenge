@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather Forecast</h1>
+    <form id="search-form">
+      <input type="text" id="city-input" list="city-list" placeholder="Enter city name">
+      <datalist id="city-list"></datalist>
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  
+  <main>
+    <section id="current-weather"></section>
+    <section id="forecast"></section>
+  </main>
+
+  <footer>
+    <h3>Search History</h3>
+    <div id="search-history"></div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
