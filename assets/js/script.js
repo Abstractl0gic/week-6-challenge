@@ -1,5 +1,5 @@
 // Global variables
-const apiKey = '4fe3b9ab993ff0a3ff4a427e9b40def8'; // Replace with your own API key
+const apiKey = '4fe3b9ab993ff0a3ff4a427e9b40def8';
 const searchForm = document.getElementById('search-form');
 const cityInput = document.getElementById('city-input');
 const currentWeatherSection = document.getElementById('current-weather');
